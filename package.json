@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-omit-by",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Return a partial object copy excluding properties for which a predicate (function) returns a truthy value.",
   "license": "Apache-2.0",
   "author": {
