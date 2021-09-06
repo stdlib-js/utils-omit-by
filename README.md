@@ -130,6 +130,12 @@ var obj2 = omitBy( obj1, predicate );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/omit`][@stdlib/utils/omit]: return a partial object copy excluding specified keys.
+
 </section>
 
 <!-- /.related -->
@@ -190,6 +196,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-omit-by/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/omit]: https://github.com/stdlib-js/utils-omit
+
+<!-- </related-links> -->
 
 </section>
 
