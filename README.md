@@ -20,7 +20,7 @@ limitations under the License.
 
 # omitBy
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Return a partial object copy excluding properties for which a predicate (function) returns a truthy value.
 
@@ -134,7 +134,7 @@ var obj2 = omitBy( obj1, predicate );
 
 ## See Also
 
--   [`@stdlib/utils/omit`][@stdlib/utils/omit]: return a partial object copy excluding specified keys.
+-   <span class="package-name">[`@stdlib/utils/omit`][@stdlib/utils/omit]</span><span class="delimiter">: </span><span class="description">return a partial object copy excluding specified keys.</span>
 
 </section>
 
@@ -185,8 +185,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-omit-by/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-omit-by?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-omit-by.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-omit-by/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
