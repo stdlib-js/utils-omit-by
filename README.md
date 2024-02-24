@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import omitBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit-by@deno/mod.js';
+import omitBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit-by@v0.2.1-deno/mod.js';
 ```
 
 #### omitBy( obj, predicate )
@@ -100,7 +100,7 @@ var obj2 = omitBy( obj1, predicate );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import omitBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit-by@deno/mod.js';
+import omitBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit-by@v0.2.1-deno/mod.js';
 
 function predicate( key, value ) {
     return ( typeof value === 'number' );
