@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import omitBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-omit-by/tags). For example,
+
+```javascript
 import omitBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit-by@v0.2.1-esm/index.mjs';
 ```
 
@@ -105,7 +110,7 @@ var obj2 = omitBy( obj1, predicate );
 <body>
 <script type="module">
 
-import omitBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit-by@v0.2.1-esm/index.mjs';
+import omitBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit-by@esm/index.mjs';
 
 function predicate( key, value ) {
     return ( typeof value === 'number' );
